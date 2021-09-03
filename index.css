@@ -230,12 +230,6 @@ div.gallery:hover{
     background-color: #384757;
 }
 
-
-/* @media (min-width: 1200px)
-.container {
-    max-width: 1140px;
-} */
-
 .row-flex {
     display: flex;
     flex-direction: row;
@@ -248,12 +242,12 @@ div.gallery:hover{
     margin: 30px 20px;
 }
 
-.h3, h3 {
+.h4, h4 {
     font-size: 1.75rem;
 	margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
-
+    color: #E7E7E7;
 }
 
 .opening-time, .contact-adress {
@@ -265,9 +259,11 @@ div.gallery:hover{
 
 .opening-time p span, .contact-adress p span {
     display: block;
+    color: #E7E7E7;
 }
 .form-group p{
     font-size: 1.2em;
+    color: #E7E7E7;
 }
 p {
     margin-top: 0;
@@ -303,4 +299,8 @@ p {
     padding: 5px 10px;
     letter-spacing: 2px;
     border: 0;
+}
+
+.h4{
+  color: #E7E7E7;
 }
